@@ -179,6 +179,7 @@ def __gdpr__(user_id):
 
 
 AFK_HANDLER = DisableAbleCommandHandler("afk", afk, run_async=True)
+AFK_HANDLER = DisableAbleCommandHandler("later", afk, run_async=True)
 AFK_REGEX_HANDLER = MessageHandler(Filters.regex("(?i)brb"), afk, friendly="afk", run_async=True)
 AFK_REGEX_HANDLER = MessageHandler(Filters.regex("(?i)afk"), afk, friendly="afk", run_async=True)
 NO_AFK_HANDLER = MessageHandler(Filters.all & Filters.chat_type.groups, no_longer_afk, run_async=True)
@@ -192,6 +193,6 @@ dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)
 __mod_name__ = "AFK 💤"
 __help__ = """
 *AFK*
- ❍ `/afk` :Tells other users that you are AFK\n
+ ❍ `/afk or afk ` :Tells other users that you are AFK\n
  ❍ `brb` :Tells other users that you are busy right now
 """
