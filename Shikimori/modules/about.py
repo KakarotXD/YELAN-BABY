@@ -26,11 +26,32 @@ from Shikimori.modules.helper_funcs.readable_time import get_readable_time
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.utils.helpers import escape_markdown
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
-from Shikimori.vars import ANIME_NAME, BOT_USERNAME, NETWORK, NETWORK_USERNAME, START_MEDIA, SUPPORT_CHAT, UPDATE_CHANNEL, PM_START_TEXT
+from Shikimori.vars import ANIME_NAME, BOT_USERNAME, NETWORK, NETWORK_USERNAME, START_MEDIA, SUPPORT_CHAT, UPDATE_CHANNEL
 from Shikimori import StartTime, dispatcher
 import Shikimori.modules.sql.users_sql as sql
 
 bot_name = f"{dispatcher.bot.first_name}"
+
+
+PM_START_TEXT = """
+「 Y ᴇ ʟ ᴀ ɴ 」
+ᴋᴏɴɪᴄʜɪᴡᴀ {} 🍂
+
+✮ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ ʏᴇʟᴀɴ ᴅᴇꜱᴜ,ᴛʜᴇ ᴍᴀꜱᴛᴇʀ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✮
+
+──────────────────>
+ɪ'ᴍ ɴɪɢʜᴛ 🌌 ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ !
+──────────────────>
+
+┏━━━━━━━━━━━━━━━━━━  
+┣━ ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ: {}
+┣━ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴡᴇᴇʙꜱ †*. ᴀᴄʀᴏꜱꜱ {} ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ
+┗━━━━━━━━━━━━━━━━━━
+
+✪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴏᴡ!
+
+ᴀᴛᴛᴀᴄᴋ /help ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !
+"""
 
 IMG_START = START_MEDIA.split(".")
 start_id = IMG_START[-1]
