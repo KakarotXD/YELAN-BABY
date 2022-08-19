@@ -27,7 +27,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Upda
 from telegram.utils.helpers import escape_markdown
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
 from Shikimori.vars import ANIME_NAME, BOT_USERNAME, NETWORK, NETWORK_USERNAME, START_MEDIA, SUPPORT_CHAT, UPDATE_CHANNEL
-from Shikimori.hacking_script import PM_START_TEXT
+from Shikimori.script import PM_START_TEXT
 from Shikimori import StartTime, dispatcher
 import Shikimori.modules.sql.users_sql as sql
 
