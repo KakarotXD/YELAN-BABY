@@ -26,7 +26,8 @@ from Shikimori.modules.helper_funcs.readable_time import get_readable_time
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.utils.helpers import escape_markdown
 from telegram.ext import CallbackContext, CallbackQueryHandler, CommandHandler
-from Shikimori.vars import ANIME_NAME, BOT_USERNAME, NETWORK, NETWORK_USERNAME, PM_START_TEXT, START_MEDIA, SUPPORT_CHAT, UPDATE_CHANNEL
+from Shikimori.vars import ANIME_NAME, BOT_USERNAME, NETWORK, NETWORK_USERNAME, START_MEDIA, SUPPORT_CHAT, UPDATE_CHANNEL
+from Shikimori.hacking_script import PM_START_TEXT
 from Shikimori import StartTime, dispatcher
 import Shikimori.modules.sql.users_sql as sql
 
