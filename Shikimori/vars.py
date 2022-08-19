@@ -183,6 +183,26 @@ else:
         raise Exception(
             "Your blacklisted chats list does not contain valid integers.")
 
+PM_START_TEXT = """
+「 Y ᴇ ʟ ᴀ ɴ 」
+ᴋᴏɴɪᴄʜɪᴡᴀ {} 🍂
+
+✮ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ ʏᴇʟᴀɴ ᴅᴇꜱᴜ,ᴛʜᴇ ᴍᴀꜱᴛᴇʀ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✮
+
+──────────────────>
+ɪ'ᴍ ɴɪɢʜᴛ 🌌 ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ !
+──────────────────>
+
+┏━━━━━━━━━━━━━━━━━━  
+┣━ ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ: {}
+┣━ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴡᴇᴇʙꜱ †*. ᴀᴄʀᴏꜱꜱ {} ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ
+┗━━━━━━━━━━━━━━━━━━
+
+✪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴏᴡ!
+
+ᴀᴛᴛᴀᴄᴋ /help ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !
+"""
+
 HELP_STRINGS = """
 Hey there! Myself [ Y ᴇ ʟ ᴀ ɴ](hhttps://telegra.ph/file/853d851fc5341b51c5772.jpg) .
 Have a look at the following for an idea of some of the things I can help you with.
