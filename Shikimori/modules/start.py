@@ -32,11 +32,11 @@ from Shikimori import (
 from Shikimori.vars import (
     BOT_USERNAME,
     HELP_STRINGS,
-    PM_START_TEXT,
     UPDATE_CHANNEL,
     SUPPORT_CHAT,
     ANIME_NAME,
     START_MEDIA,)
+from Shikimori.hacking_script.py import PM_START_TEXT
 from Shikimori.modules.helper_funcs.misc import paginate_modules
 from Shikimori.modules.helper_funcs.chat_status import is_user_admin
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
