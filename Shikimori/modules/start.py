@@ -177,7 +177,7 @@ def start(update: Update, context: CallbackContext):
             update.effective_message.reply_text(start_text, reply_markup=InlineKeyboardMarkup(start_buttons),
                 parse_mode=ParseMode.MARKDOWN,)
 
-start_handler = CommandHandler("start", start, run_async=True)
+start_handler = CommandHandler("start", "start", run_async=True)
 dispatcher.add_handler(start_handler)
 
 def send_settings(chat_id, user_id, user=False):
