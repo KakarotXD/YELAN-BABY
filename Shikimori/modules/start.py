@@ -52,14 +52,17 @@ start_id = IMG_START[-1]
 buttons = [
     [
         InlineKeyboardButton(
-            text=f"➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ ➕", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
+            text=f"【Aᴅᴅ Yᴇʟᴀɴ Tᴏ Yᴏᴜʀ GC】", url=f"t.me/YelanXBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇ", url=f"https://t.me/{UPDATE_CHANNEL}"),   
+        InlineKeyboardButton(text="【Sᴜᴘᴘᴏʀᴛ】", url=f"https://t.me/YelanXJinWoo"),
+        InlineKeyboardButton(text="【Uᴘᴅᴀᴛᴇ】", url=f"https://t.me/YelanxUpdates"),   
     ], 
+     [
+        InlineKeyboardButton(
+            text=f"【HELP】", callback_data="help_back"),
+    ],
 ]
-
 def start(update: Update, context: CallbackContext):
     args = context.args
     uptime = get_readable_time((time.time() - StartTime))
@@ -75,7 +78,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Go Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="【Back】", callback_data="help_back")]]
                     ),
                 )
 
@@ -122,14 +125,14 @@ def start(update: Update, context: CallbackContext):
     else:
         start_buttons = [
                  [
-                    InlineKeyboardButton(text="🚨Support Grp", url=f"https://t.me/{SUPPORT_CHAT}"),
-                    InlineKeyboardButton(text="❗Updates", url=f"https://t.me/{UPDATE_CHANNEL}")
+                    InlineKeyboardButton(text="【Sᴜᴘᴘᴏʀᴛ】", url=f"https://t.me/YelanxJinWoo"),
+                    InlineKeyboardButton(text="【Uᴘᴅᴀᴛᴇ】", url=f"https://t.me/YelanxUpdates")
                  ]
                 ]
         chat_id = update.effective_chat.id
         first_name = update.effective_user.first_name
         chat_name = dispatcher.bot.getChat(chat_id).title
-        start_text= "ᴀɪɴ'ᴛ ꜱᴛᴏᴘᴘɪɴɢ ʏᴇᴛ {} ! ✨ ᴡᴏʀᴋɪɴɢ ᴡɪᴛʜ ᴇᴠᴇʀʏᴛʜɪɴɢ ɪ'ᴠᴇ ɢᴏᴛ ꜱɪɴᴄᴇ: `{}`\n".format(escape_markdown(first_name), uptime)
+        start_text= "ᴀɪɴ'ᴛ ꜱᴛᴏᴘᴘɪɴɢ ʏᴇᴛ {} ! \n✨ᴡᴏʀᴋɪɴɢ ᴡɪᴛʜ ᴇᴠᴇʀʏᴛʜɪɴɢ ɪ'ᴠᴇ ɢᴏᴛ ꜱɪɴᴄᴇ: `{}`\n".format(escape_markdown(first_name), uptime)
         try:
             if start_id in ("jpeg", "jpg", "png"):
                 update.effective_message.reply_photo(
