@@ -34,7 +34,6 @@ from Shikimori.vars import (
     HELP_STRINGS,
     UPDATE_CHANNEL,
     SUPPORT_CHAT,
-    PM_START_TEXT,
     ANIME_NAME,
     START_MEDIA,) 
 from Shikimori.modules.helper_funcs.misc import paginate_modules
@@ -45,6 +44,27 @@ from telegram.utils.helpers import escape_markdown
 import Shikimori.modules.sql.users_sql as sql
 
 bot_name = f"{dispatcher.bot.first_name}"
+
+
+PM_START_TEXT = """
+「 Y ᴇ ʟ ᴀ ɴ 」
+ᴋᴏɴɪᴄʜɪᴡᴀ {} 🍂
+
+✮ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ ʏᴇʟᴀɴ ᴅᴇꜱᴜ,ᴛʜᴇ ᴍᴀꜱᴛᴇʀ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✮
+
+──────────────────>
+ɪ'ᴍ ɴɪɢʜᴛ 🌌 ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ !
+──────────────────>
+
+┏━━━━━━━━━━━━━━━━━━  
+┣━ ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ: {}
+┣━ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴡᴇᴇʙꜱ †*. ᴀᴄʀᴏꜱꜱ {} ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ
+┗━━━━━━━━━━━━━━━━━━
+
+✪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴏᴡ!
+
+ᴀᴛᴛᴀᴄᴋ /help ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !
+"""
 
 IMG_START = START_MEDIA.split(".")
 start_id = IMG_START[-1]
