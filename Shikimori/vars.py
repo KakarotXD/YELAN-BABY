@@ -185,17 +185,39 @@ else:
             
 PM_START_TEXT = """
 「 Y ᴇ ʟ ᴀ ɴ」
-*───────────────────*
+
 ᴋᴏɴɪᴄʜɪᴡᴀ {} 🍂
-*✮ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ ʏᴇʟᴀɴ ᴅᴇꜱᴜ,ᴛʜᴇ ᴍᴀꜱᴛᴇʀ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✮*
-*───────────────────*
-*ɪ'ᴍ ɴɪɢʜᴛ 🌌 ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ !*
+✮ʙᴏᴋᴜ ɴᴏ ɴᴀᴍᴀɪ ᴡᴀ ʏᴇʟᴀɴ ᴅᴇꜱᴜ,ᴛʜᴇ ᴍᴀꜱᴛᴇʀ ᴏꜰ ʏᴀɴꜱʜᴀɴ ᴛᴇᴀʜᴏᴜꜱᴇ ✮
+
+───────────────────
+ɪ'ᴍ ɴɪɢʜᴛ 🌌 ᴏʀᴄʜɪᴅ ᴀ ɢᴀᴍᴇ-ᴛʜᴇᴍᴇ ʙᴀꜱᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ !
+───────────────────
+
 ┏━━━━━━━━━━━━━━━━━━  
-┣━ *ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ:* {}
-┣━ {} ᴡᴇᴇʙꜱ †*. ᴀᴄʀᴏꜱꜱ* {} *ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ*
+┣━ ᴀᴡᴀᴋᴇ ꜱɪɴᴄᴇ: {}
+┣━ ɢᴇɴꜱʜɪɴ ɪᴍᴘᴀᴄᴛ ᴡᴇᴇʙꜱ †*. ᴀᴄʀᴏꜱꜱ {} ɢʀᴏᴜᴘ ᴄʜᴀᴛꜱ
 ┗━━━━━━━━━━━━━━━━━━
-*ᴀᴛᴛᴀᴄᴋ /help ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !*
+
+✪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴏᴡ!
+
+ᴀᴛᴛᴀᴄᴋ /help ᴛᴏ ᴋɴᴏᴡ ᴡʜᴀᴛ ɪ ᴀᴍ ᴄᴀᴘᴀʙʟᴇ ᴏꜰ !
 """
 
 HELP_STRINGS = """
-𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗 𝚋𝚎𝚕𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚎𝚜𝚌𝚛𝚒𝚙𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌𝚜 𝚌𝚘𝚖𝚖𝚊𝚗𝚍."""
+Hey there! Myself [ Y ᴇ ʟ ᴀ ɴ](hhttps://telegra.ph/file/853d851fc5341b51c5772.jpg).
+Have a look at the following for an idea of some of the things I can help you with.
+
+*Main* commands available:
+
+ ➛ /help: PM's you this message.
+ ➛ /help <module name>: PM's you info about that module.
+
+ ➛ /bug <error name> : inform support about that error 
+
+ ➛ /settings: 
+
+   ❂ In PM: will send you your settings for all supported modules.
+   ❂ In a group: will redirect you to pm, with all that chat's settings.\n• [*Support Chat For Help:*](https://t.me/YelanXJinwoo)
+
+ᴘᴏᴡᴇʀᴇᴅ ʙʏ :  [V๏ɪ፝֟𝔡 ɴᴇᴛᴡᴏʀᴋ](t.me/voidxnetwork)
+"""
