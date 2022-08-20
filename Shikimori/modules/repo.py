@@ -25,7 +25,7 @@ async def repo(client, message):
 
 ✪ ᴘᴏᴡᴇʀᴇᴅ ʙʏ - [【V๏ɪ፝֟𝔡】◈Network◈](t.me/voidxnetwork)
 
-☆ My owner's policy decline your request for the repo.
+ *My owner's policy decline your request for the repo.*
 """,
         reply_markup=InlineKeyboardMarkup(
             [
