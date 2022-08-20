@@ -16,7 +16,7 @@ async def repo(client, message):
         caption=f"""Hᴇʏ {message.from_user.mention()},\n\n Iᴛꜱ Mᴇ Tʜᴇ Bᴏᴛ Nᴀᴍᴇᴅ Yᴇʟᴀɴ
 
 
-*❍ ʙᴏᴛ ʀᴇᴘᴏ ᴏᴡɴᴇʀ / ᴅᴇᴠʟᴏᴘᴇʀ*: [S U N G • J I N • W O O ](tg://user?id=1054969108)
+❍ ʙᴏᴛ ʀᴇᴘᴏ ᴏᴡɴᴇʀ / ᴅᴇᴠʟᴏᴘᴇʀ: [S U N G • J I N • W O O ](tg://user?id=1054969108)
 
 
 ➢ Python Version : `{y()}`
@@ -26,7 +26,7 @@ async def repo(client, message):
 
 ✪ ᴘᴏᴡᴇʀᴇᴅ ʙʏ - [【V๏ɪ፝֟𝔡】◈Network◈](t.me/voidxnetwork)
 
-* My owner's policy decline for your request of the repo *
+☆ My owner's policy decline your request for the repo.
 """,
         reply_markup=InlineKeyboardMarkup(
             [
