@@ -13,13 +13,18 @@ ANON = "https://telegra.ph/file/2e4707e6c618e468a2373.jpg"
 async def repo(client, message):
     await message.reply_photo(
         photo=ANON,
-        caption=f"""**Hey​ {message.from_user.mention()},\n\nHey Its Me The Bot Named Yᴇʟᴀɴ**
+        caption=f"""Hᴇʏ {message.from_user.mention()},\n\n Iᴛꜱ Mᴇ Tʜᴇ Bᴏᴛ Nᴀᴍᴇᴅ Yᴇʟᴀɴ
 
-**» Owner / Devloper​ :** [S U N G • J I N • W O O ](tg://user?id=1054969108)
-**» Python Version :** `{y()}`
-**» Library Version :** `{o}` 
-**» Telethon Version :** `{s}` 
-**» Pyrogram Version :** `{z}`
+
+*❍ ʙᴏᴛ ʀᴇᴘᴏ ᴏᴡɴᴇʀ / ᴅᴇᴠʟᴏᴘᴇʀ*: [S U N G • J I N • W O O ](tg://user?id=1054969108)
+
+
+➢ Python Version : `{y()}`
+➢ Library Version : `{o}` 
+➢ Telethon Version : `{s}` 
+➢ Pyrogram Version : `{z}`
+
+✪ ᴘᴏᴡᴇʀᴇᴅ ʙʏ - [【V๏ɪ፝֟𝔡】◈Network◈](t.me/voidxnetwork)
 
 * My owner's policy decline for your request of the repo *
 """,
@@ -27,7 +32,7 @@ async def repo(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "Owner", url="https://t.me/izumixtachibana"), 
+                        "Owner", url="tg://user?id=1054969108"), 
                     InlineKeyboardButton(
                         "Void Network", url="https://t.me/voidxnetwork")
                 ]
