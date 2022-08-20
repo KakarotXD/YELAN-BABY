@@ -30,11 +30,11 @@ from telegram.ext import (
     CommandHandler,
 )
 
-PHOTO = "https://telegra.ph/file/7cb643db87efa3a111744.jpg"
+PHOTO = "https://telegra.ph/file/e5808adf6d1bc748d6440.jpg"
 
 network_name = NETWORK_USERNAME.lower()
 
-if network_name == "uchihaxnetwork":
+if network_name == "voidxnetwork":
     def uchiha(update: Update, context: CallbackContext):
 
         TEXT = f"""
