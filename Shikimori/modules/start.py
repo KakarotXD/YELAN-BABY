@@ -69,10 +69,6 @@ PM_START_TEXT = """
 
 
 
-
-
-"""
-
 IMG_START = START_MEDIA.split(".")
 start_id = IMG_START[-1]
 
