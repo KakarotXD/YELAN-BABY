@@ -118,7 +118,7 @@ def start(update: Update, context: CallbackContext):
             users = f"{sql.num_users()}"
             chats = f"{sql.num_chats()}"
             first_name = update.effective_user.first_name
-            start_text = PM_START_TEXT.format(escape_markdown(first_name), bot_name, ANIME_NAME, users, chats, uptime)
+            start_text = PM_START_TEXT.format(escape_markdown(first_name), uptime, users, chats)
             try:
                 if start_id in ("jpeg", "jpg", "png"):
                     update.effective_message.reply_photo(
