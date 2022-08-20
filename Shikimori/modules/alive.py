@@ -41,11 +41,11 @@ def awake(update: Update, context: CallbackContext):
     buttons = [
         [
         InlineKeyboardButton(
-            text="Updates",
-            url=f"https://t.me/{UPDATE_CHANNEL}"),
+            text="【Uᴘᴅᴀᴛᴇ】",
+            url=f"https://t.me/YelanXUpdates"),
         InlineKeyboardButton(
-            text="Support",
-            url=f"https://t.me/"),
+            text="【Sᴜᴘᴘᴏʀᴛ】",
+            url=f"https://t.me/YelanXjinWoo"),
         ],
      ]
     
