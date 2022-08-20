@@ -49,16 +49,16 @@ def awake(update: Update, context: CallbackContext):
     user = message.from_user
 
     TEXT = f"""
-    ✭ Hi <a href="tg://user?id={user.id}">{first_name}</a>, I'm Up 
+    ✭ Hᴏɪɪ <a href="tg://user?id={user.id}">{first_name}</a>,
 
- ✭ I'm Working Properly
+ ✭ I'ᴍ Wᴏʀᴋɪɴɢ Hᴀʀᴅ
 
     """
     if NETWORK:
-        TEXT = TEXT + f'\n⚪ <b>I am Powered by : <a href="https://t.me/{NETWORK_USERNAME}">{NETWORK}</a>\n\n' + 'Thanks For Adding Me Here ❤️</b>'
+        TEXT = TEXT + f'\n✭ <b>I ᴀᴍ Pᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/{NETWORK_USERNAME}">{NETWORK}</a>\n\n' + 'OᴡO,Tʜᴀɴᴋꜱ Fᴏʀ Aᴅᴅɪɴɢ Me Hᴇʀᴇ ❤️</b>'
     
     else:
-        TEXT = TEXT + "\n OwO,Thanks For Adding Me Here ❤️</b>"
+        TEXT = TEXT + "\n OᴡO,Tʜᴀɴᴋꜱ Fᴏʀ Aᴅᴅɪɴɢ Me Hᴇʀᴇ ❤️</b>"
 
     try:
         if alive_id in ("jpeg", "jpg", "png"):
