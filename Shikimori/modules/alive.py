@@ -65,7 +65,7 @@ def awake(update: Update, context: CallbackContext):
 ━━━━━━━━━━━━━━━━━━━━━━━
 """
     if NETWORK:
-        TEXT = TEXT + f"\n✭ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="http://t.me/voidxnetwork">  [V๏ɪ፝֟𝔡] ɴᴇᴛᴡᴏʀᴋ </a>\n' + '✪ Tʜᴀɴᴋꜱ Fᴏʀ Aᴅᴅɪɴɢ Me Hᴇʀᴇ"
+        TEXT = TEXT + f'\n✭ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="http://t.me/voidxnetwork">  [V๏ɪ፝֟𝔡] ɴᴇᴛᴡᴏʀᴋ </a>\n' + '✪ Tʜᴀɴᴋꜱ Fᴏʀ Aᴅᴅɪɴɢ Me Hᴇʀᴇ'
     
     else:
         TEXT = TEXT + "\n enter network name "
