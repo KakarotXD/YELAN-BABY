@@ -26,6 +26,10 @@ from Shikimori import dispatcher
 from Shikimori.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext
+from platform import python_version as y
+from telegram import __version__ as o
+from pyrogram import __version__ as z
+from telethon import __version__ as s
 
 bot_name = f"{dispatcher.bot.first_name}"
 
@@ -49,16 +53,25 @@ def awake(update: Update, context: CallbackContext):
     user = message.from_user
 
     TEXT = f"""
-    ✭ Hᴏɪɪ <a href="tg://user?id={user.id}">{first_name}</a>,
+✪ Hᴏɪɪ <a href="tg://user?id={user.id}">{first_name}</a>,
 
- ✭ I'ᴍ Wᴏʀᴋɪɴɢ Hᴀʀᴅ
+✪ I'ᴍ ᴡᴏʀᴋɪɴɢ ᴡɪᴛʜ ᴇᴠᴇʀʏᴛʜɪɴɢ ɪ'ᴠᴇ ɢᴏᴛ.
 
+━━━━━━━━━━━━━━━━━━━━━━>
+❍ My Devloper - [S U N G • J I N • W O O](tg://user?id=1054969108)
+
+➢ Python Version : `{y()}`
+➢ Library Version : `{o}` 
+➢ Telethon Version : `{s}` 
+➢ Pyrogram Version : `{z}`
+━━━━━━━━━━━━━━━━━━━━━━━>
     """
     if NETWORK:
-        TEXT = TEXT + f'\n✭ <b>I ᴀᴍ Pᴏᴡᴇʀᴇᴅ ʙʏ : <a href="https://t.me/{NETWORK_USERNAME}">{NETWORK}</a>\n\n' + 'OᴡO,Tʜᴀɴᴋꜱ Fᴏʀ Aᴅᴅɪɴɢ Me Hᴇʀᴇ ❤️</b>'
+        TEXT = TEXT + f"""\n✭ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :  [V๏ɪ፝֟𝔡 ɴᴇᴛᴡᴏʀᴋ](http://t.me/voidxnetwork)\n' + '✪ Tʜᴀɴᴋꜱ Fᴏʀ Aᴅᴅɪɴɢ Me Hᴇʀᴇ
+"""
     
     else:
-        TEXT = TEXT + "\n OᴡO,Tʜᴀɴᴋꜱ Fᴏʀ Aᴅᴅɪɴɢ Me Hᴇʀᴇ ❤️</b>"
+        TEXT = TEXT + "\n enter network name "
 
     try:
         if alive_id in ("jpeg", "jpg", "png"):
