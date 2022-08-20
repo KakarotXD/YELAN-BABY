@@ -13,9 +13,9 @@ ANON = "https://telegra.ph/file/2e4707e6c618e468a2373.jpg"
 async def repo(client, message):
     await message.reply_photo(
         photo=ANON,
-        caption=f"""Hᴇʏ {message.from_user.mention()},\n\n Iᴛꜱ Mᴇ Tʜᴇ Bᴏᴛ Nᴀᴍᴇᴅ Yᴇʟᴀɴ
+        caption=f"""Hᴇʏ {message.from_user.mention()},\n\nIᴛꜱ Mᴇ Tʜᴇ Bᴏᴛ Nᴀᴍᴇᴅ Yᴇʟᴀɴ
 
-
+*
 ❍ ʙᴏᴛ ʀᴇᴘᴏ ᴏᴡɴᴇʀ / ᴅᴇᴠʟᴏᴘᴇʀ: [S U N G • J I N • W O O ](tg://user?id=1054969108)
 
 
@@ -26,7 +26,7 @@ async def repo(client, message):
 
 ✪ ᴘᴏᴡᴇʀᴇᴅ ʙʏ - [【V๏ɪ፝֟𝔡】◈Network◈](t.me/voidxnetwork)
 
-☆ My owner's policy decline your request for the repo.
+*☆* My owner's policy decline your request for the repo.
 """,
         reply_markup=InlineKeyboardMarkup(
             [
