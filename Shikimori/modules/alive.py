@@ -55,17 +55,19 @@ def awake(update: Update, context: CallbackContext):
     TEXT = f"""
 ✪ Hᴏɪɪ <a href="tg://user?id={user.id}">{first_name}</a>, 
 
- ✪ I'ᴍ ᴡᴏʀᴋɪɴɢ ᴡɪᴛʜ ᴇᴠᴇʀʏᴛʜɪɴɢ ɪ'ᴠᴇ ɢᴏᴛ.
-━━━━━━━━━━━━━━━━━━━━━━
+✪ I'ᴍ ᴡᴏʀᴋɪɴɢ ᴡɪᴛʜ ᴇᴠᴇʀʏᴛʜɪɴɢ ɪ'ᴠᴇ ɢᴏᴛ.
+
 ❍ My Developer - <a href="tg://user?id=1054969108"> S U N G • J I N • W O O </a> 
-➢ Python Version : `{y()}`
-➢ Library Version : `{o}` 
-➢ Telethon Version : `{s}` 
-➢ Pyrogram Version : `{z}`
-━━━━━━━━━━━━━━━━━━━━━━━
+
+━━━━━━━━━━━━━━━━━━━━━━
+➢ Python Version : {y()}
+➢ Library Version : {o} 
+➢ Telethon Version : {s} 
+➢ Pyrogram Version : {z}
+━━━━━━━━━━━━━━━━━━━━━━
 """
     if NETWORK:
-        TEXT = TEXT + f'\n✭ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="http://t.me/voidxnetwork">  [V๏ɪ፝֟𝔡] ɴᴇᴛᴡᴏʀᴋ </a>\n' + '✪ Tʜᴀɴᴋꜱ Fᴏʀ Aᴅᴅɪɴɢ Me Hᴇʀᴇ'
+        TEXT = TEXT + f'\n✭ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href="http://t.me/voidxnetwork">  [V๏ɪ፝֟𝔡] ɴᴇᴛᴡᴏʀᴋ </a>\n\n' + '✪ Tʜᴀɴᴋꜱ Fᴏʀ Aᴅᴅɪɴɢ Me Hᴇʀᴇ'
     
     else:
         TEXT = TEXT + "\n enter network name "
