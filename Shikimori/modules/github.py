@@ -81,7 +81,7 @@ def github(update: Update, context: CallbackContext):
 git_handler = CommandHandler(("git", "github"), github, run_async = True)
 dispatcher.add_handler(git_handler)
 
-__mod_name__ = "Github 🐱‍💻"
+__mod_name__ = "「 Github 」"
 __help__ = """
 Here is help for Github
 
