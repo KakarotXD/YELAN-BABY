@@ -32,7 +32,7 @@ from telethon import Button
 async def animelink(event):
     animename = event.message.message.split()
     if len(animename) <= 1:
-        await event.reply('/anilink anime name')
+        await event.reply('Go to @Anime_Uploadz and search for it \nif it is not there then just request it at @Miyamura_Family')
         return
     try:
         anime = animedev_client.search(' '.join(animename[1:]))
