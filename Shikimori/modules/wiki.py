@@ -87,4 +87,4 @@ Wiki module:
 
 """ 
 
-__mod_name__ = "Wiki"
+__mod_name__ = "「 Wiki 」"
