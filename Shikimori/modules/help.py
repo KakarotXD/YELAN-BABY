@@ -130,7 +130,7 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "<a href="https://telegra.ph/file/000762aed2dc20703dc93.jpg" > ᴄᴏᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴍᴇ ᴏᴜᴛ ! ✨</a>",
+            "<a href="https://telegra.ph/file/000762aed2dc20703dc93.jpg" > ᴄᴏᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴍᴇ ᴏᴜᴛ ! ✨</a>"),
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
