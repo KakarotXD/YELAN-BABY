@@ -154,7 +154,7 @@ dispatcher.add_handler(close_send_photo_handler)
 __command_list__ = ["bug"]
 __handlers__ = [BUG_HANDLER]
 
-__mod_name__ = "Bug"
+__mod_name__ = "「 Bug 」"
 
 __help__ = """
 *Bug*
