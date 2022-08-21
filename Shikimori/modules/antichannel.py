@@ -41,3 +41,9 @@ def eliminate_channel(update: Update, context: CallbackContext):
         message.delete()
         sender_chat = message.sender_chat
         bot.ban_chat_sender_chat(sender_chat_id=sender_chat.id, chat_id=chat.id)
+
+__mod_name__ = ' 「 Anime Channel 」'
+
+_help_="""
+`/antichannel` - Will stop users using Channel to chat in the group chats
+"""
