@@ -287,7 +287,7 @@ __handlers__ = [
     (CLEAN_BLUE_TEXT_HANDLER, BLUE_TEXT_CLEAN_GROUP),
 ]
 
-__mod_name__ = "Cleaner 🧹"
+__mod_name__ = "「 Cleaner 」"
 
 __help__ = """
  Blue text cleaner removed any made up commands that people send in your chat.
