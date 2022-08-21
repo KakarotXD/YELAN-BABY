@@ -98,7 +98,7 @@ async def PokeDex(_, message):
                 pass
 
 
-__mod_name__ = "Pokedex"
+__mod_name__ = "「 Pokedex 」"
 __help__ = """
 **Here is help for Pokedex**
 
