@@ -164,7 +164,7 @@ async def karma(_, message):
         karma = karma["karma"] if karma else 0
         await message.reply_text(f"**Total Points**: __{karma}__")
 
-__mod_name__ = "Karma ☯️"
+__mod_name__ = "「 Karma 」"
 __help__ = """
 *Karma*
  ❍ `/karma` : To enable / disable Karma system
