@@ -70,7 +70,7 @@ __help__ = """
 `/plet` <text>: Creates a sticker with your Sending message
 """
 
-__mod_name__ = "Text To Sticker🌈"
+__mod_name__ = "「 Text To Sticker 」"
 __command_list__ = [
     "plet"
 ]
