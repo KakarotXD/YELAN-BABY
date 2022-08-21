@@ -83,7 +83,7 @@ async def ytsearch(_, message: Message):
         
   
 
-__mod_name__ = "YouTube"
+__mod_name__ = "「 YouTube 」"
 
 __help__ = """
 =>> *Youtube Video Searching *
