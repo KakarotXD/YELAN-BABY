@@ -94,7 +94,7 @@ I'm more efficient when added as group admin. By the way these commands can be u
 ➛ pokedex [TEXT]: Pokemon Search
 """
 
-__MODULE__ = "Inline"
+__MODULE__ = "「 Inline 」"
 __HELP__ = f"""
  ==>> **INLINE BOT SERVICE OF @{BOT_USERNAME}** <<==
 `I'm more efficient when added as group admin. By the way these commands can be used by anyone in a group via inline.`
