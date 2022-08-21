@@ -45,7 +45,7 @@ async def _(event):
             await event.reply(mentions)
     await event.reply(mentions)
 
-__mod_name__ = "TagAll"
+__mod_name__ = "「 Mention/Tag All 」"
 __help__ = """
 *Tag All*
  ❍ `/users` : Get txt file of all users in your group.
