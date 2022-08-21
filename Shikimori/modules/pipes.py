@@ -28,7 +28,7 @@ from pyrogram.types import Message
 from Shikimori import DRAGONS, pbot
 from Shikimori.core.decorators.errors import capture_err
 
-__mod_name__ = "Pipes"
+__mod_name__ = "「 Pipes 」"
 __help__ = """
 **THIS MODULE IS ONLY FOR DEVS**
 
