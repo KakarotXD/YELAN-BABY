@@ -51,7 +51,7 @@ def apod(update: Update, context: CallbackContext):
 apod_handler = CommandHandler("apod", apod, run_async = True)
 dispatcher.add_handler(apod_handler)
 
-__mod_name__ = "NASA"
+__mod_name__ = "「 NASA 」"
 
 __help__ = """
 Use `/apod` to get Picture of the Day by NASA.
