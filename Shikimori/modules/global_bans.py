@@ -562,7 +562,7 @@ if STRICT_GBAN:  # enforce GBANS if this is set
     __handlers__.append((GBAN_ENFORCER, GBAN_ENFORCE_GROUP))
 
 
-__mod_name__ = "Anti-Spam 🚫"
+__mod_name__ = "「 Anti-Spam 」"
 
 
 __help__ = f"""
