@@ -66,7 +66,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Go Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
                 ),
             )
 
@@ -114,7 +114,7 @@ def get_help(update: Update, context: CallbackContext):
         if len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
             module = args[1].lower()
             update.effective_message.reply_text(
-                f"Contact me in PM to get help of {module.capitalize()}",
+                f"ᴄᴏᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴛᴏ ᴄʜᴇᴄᴋ {module.capitalize()}",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
@@ -130,7 +130,7 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+            "<a href="https://telegra.ph/file/000762aed2dc20703dc93.jpg" > ᴄᴏᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴛᴏ ᴄʜᴇᴄᴋ ᴍᴇ ᴏᴜᴛ ! ✨</a>",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -156,7 +156,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Go Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
             ),
         )
 
