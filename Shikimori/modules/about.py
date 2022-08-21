@@ -70,8 +70,8 @@ buttons = [
 network_name = NETWORK_USERNAME.lower()
 
 try:
-    if network_name == "uchihaxnetwork":
-        HMMM = InlineKeyboardButton(text="❟❛❟ 𝖀𝖈𝖍𝖎𝖍𝖆 ❟❛❟ 𝙉𝙚𝙩𝙬𝙤𝙧𝙠", callback_data="sern_")
+    if network_name == "voidxnetwork":
+        HMMM = InlineKeyboardButton(text="【Void】 𝙉𝙚𝙩𝙬𝙤𝙧𝙠", callback_data="sern_")
     elif NETWORK:
         HMMM = InlineKeyboardButton(text=f"{NETWORK}", url=f"https://t.me/{NETWORK_USERNAME}")
     else:
@@ -97,10 +97,6 @@ def Shikimori_about_callback(update: Update, context: CallbackContext):
                 InlineKeyboardButton(text="License", callback_data="license_"),
                 ],
                 [
-                HMMM,
-                InlineKeyboardButton(text="Documentation", url="https://some1hing.gitbook.io/shikimori-bot/"),
-                ],
-                [
                 InlineKeyboardButton(text="Back", callback_data="home_"),
                 ],
             ]
@@ -111,14 +107,14 @@ def git_call_back(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "github_":
         query.message.edit_text(
-            text=f"Orginal Repositiory created by [SOME1HING](https://github.com/SOME-1HING) on [github](https://github.com/SOME-1HING/ShikimoriBot) for [Shikimori Bot](https://t.me/micchon_shikimori_bot)",
+            text=f"The Base / Orginal Repositiory Of Yelan Was created by [SOME1HING](https://github.com/SOME-1HING) on [github](https://github.com/SOME-1HING/ShikimoriBot)\nHowever The Upgraded Repo Of Yelan Is Currently Private",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton(text="Repo", url="https://github.com/SOME-1HING/ShikimoriBot"),
-                    InlineKeyboardButton(text="Creator", url="https://github.com/SOME-1HING"),
+                    InlineKeyboardButton(text="Base Repo", url="https://github.com/SOME-1HING/ShikimoriBot"),
+                    InlineKeyboardButton(text="Base Repo Creator", url="https://github.com/SOME-1HING"),
                     ],
                 ]
             ),
@@ -163,15 +159,15 @@ def sern_call_back(update: Update, context: CallbackContext):
     if query.data == "sern_":
         query.message.edit_text(
             text=f"""
-ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ [❟❛❟ 𝖀𝖈𝖍𝖎𝖍𝖆 ❟❛❟ 𝘕𝘌𝘛𝘞𝘖𝘙𝘒](https://t.me/UchihaXNetwork/70),
-𝖀𝖈𝖍𝖎𝖍𝖆 𝙞𝙨 𝙖𝙣 𝙖𝙣𝙞𝙢𝙚 𝙗𝙖𝙨𝙚𝙙 𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮 𝙬𝙞𝙩𝙝 𝙖 𝙢𝙤𝙩𝙞𝙫𝙚 𝙩𝙤 𝙨𝙥𝙧𝙚𝙖𝙙 𝙡𝙤𝙫𝙚 𝙖𝙣𝙙 𝙥𝙚𝙖𝙘𝙚 𝙖𝙧𝙤𝙪𝙣𝙙 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢. 𝙂𝙤 𝙩𝙝𝙧𝙤𝙪𝙜𝙝 𝙩𝙝𝙚 𝙘𝙝𝙖𝙣𝙣𝙚𝙡 𝙖𝙣𝙙 𝙟𝙤𝙞𝙣 𝙩𝙝𝙚 𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮, 𝙞𝙛 𝙞𝙩 𝙙𝙧𝙖𝙬𝙨 𝙮𝙤𝙪𝙧 𝙖𝙩𝙩𝙚𝙣𝙩𝙞𝙤𝙣.""", parse_mode=ParseMode.MARKDOWN,
+ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ 【Void】(https://t.me/VoidXNetwork),
+【Void】 𝙞𝙨 𝙖𝙣 𝙖𝙣𝙞𝙢𝙚 𝙗𝙖𝙨𝙚𝙙 𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮 𝙬𝙞𝙩𝙝 𝙖 𝙢𝙤𝙩𝙞𝙫𝙚 𝙩𝙤 𝙨𝙥𝙧𝙚𝙖𝙙 𝙡𝙤𝙫𝙚 𝙖𝙣𝙙 𝙥𝙚𝙖𝙘𝙚 𝙖𝙧𝙤𝙪𝙣𝙙 𝙩𝙚𝙡𝙚𝙜𝙧𝙖𝙢. 𝙂𝙤 𝙩𝙝𝙧𝙤𝙪𝙜𝙝 𝙩𝙝𝙚 𝙘𝙝𝙖𝙣𝙣𝙚𝙡 𝙖𝙣𝙙 𝙟𝙤𝙞𝙣 𝙩𝙝𝙚 𝘾𝙤𝙢𝙢𝙪𝙣𝙞𝙩𝙮, 𝙞𝙛 𝙞𝙩 𝙙𝙧𝙖𝙬𝙨 𝙮𝙤𝙪𝙧 𝙖𝙩𝙩𝙚𝙣𝙩𝙞𝙤𝙣.""", parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="❟❛❟ 𝖀𝖈𝖍𝖎𝖍𝖆 ❟❛❟ 𝙉𝙚𝙩𝙬𝙤𝙧𝙠", url="https://t.me/UchihaXNetwork/70")],
+                    [InlineKeyboardButton(text="【Void】 𝙉𝙚𝙩𝙬𝙤𝙧𝙠", url="https://t.me/UchihaXNetwork/70")],
                     [
-                    InlineKeyboardButton(text="★彡[ᴜꜱᴇʀ ᴛᴀɢ]彡★", url="https://t.me/UchihaXNetwork/74"),
-                    InlineKeyboardButton(text="★彡[ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ]彡★", url="https://t.me/Uchihashrine")
+                    InlineKeyboardButton(text="【ᴜꜱᴇʀ ᴛᴀɢ】", url="https://t.me/UchihaXNetwork/74"),
+                    InlineKeyboardButton(text="【ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ】", url="https://t.me/Uchihashrine")
                     ],
                 ]
             ),
