@@ -54,7 +54,7 @@ async def reddit(_, message):
     except Exception as e:
         await m.edit_text(e.MESSAGE)
 
-__mod_name__ = "Reddit"
+__mod_name__ = "「 Reddit 」"
 __help__ = """
 *Reddit*
  ❍ `/reddit` : Searches reddit
