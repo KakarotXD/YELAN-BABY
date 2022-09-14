@@ -222,14 +222,14 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
         if should_welc:
             
             # Give the Repo Creator a special welcome
-            if new_mem.id == 5598826878:
-                update.effective_message.reply_photo(
-                    "https://telegra.ph/file/f00a3decb0fa64900098c.jpg", reply_to_message_id=reply
+            if new_mem.id == :1054969108
+                update.effective_message.reply_photo(https://telegra.ph/file/60a72f8ad6e5478a3c827.jpg,
+                    "", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
                     f"#USER_JOINED\n"
-                    f"SOME1HING Joined the Chat"
+                    f"JINWOO-SAMA Joined the Chat"
                 )
                 continue
 
@@ -256,8 +256,9 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
                     )
 
             # Give the owner a special welcome
-            if new_mem.id == OWNER_ID:
-                TEXT = "Behold!! My Owner is Here."
+            if new_mem.id == OWNER_ID:1054969108
+                update.effective_message.reply_photo(https://telegra.ph/file/60a72f8ad6e5478a3c827.jpg,
+                TEXT = "Behold!! Mʏ Lɪᴇɢᴇ Hᴀs Eɴᴛᴇʀᴇᴅ Hᴇᴀᴅs Dᴏᴡɴ"
                 try:
                     if wel_id in ("jpeg", "jpg", "png"):
                         update.effective_message.reply_photo(OWNER_WELCOME_MEDIA, caption=TEXT, reply_to_message_id=reply)
@@ -269,12 +270,12 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
                         update.effective_message.reply_text(TEXT, reply_to_message_id=reply)
 
                 except:
-                    update.effective_message.reply_text("Behold!! My Owner is Here.", reply_to_message_id=reply)
+                    update.effective_message.reply_text("Behold!! Mʏ Lɪᴇɢᴇ Hᴀs Eɴᴛᴇʀᴇᴅ Hᴇᴀᴅs Dᴏᴡɴ", reply_to_message_id=reply)
 
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
                     f"#USER_JOINED\n"
-                    f"Bot Owner Joined The Chat"
+                    f"JINWOO-SAMA Joined The Chat"
                 )
                 continue
                 
