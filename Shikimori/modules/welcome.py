@@ -222,8 +222,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
         if should_welc:
             
             # Give the Repo Creator a special welcome
-            if new_mem.id == :1054969108
-                update.effective_message.reply_photo(https://telegra.ph/file/60a72f8ad6e5478a3c827.jpg,
+            if new_mem.id == :1054969108          
                     "", reply_to_message_id=reply
                 )
                 welcome_log = (
