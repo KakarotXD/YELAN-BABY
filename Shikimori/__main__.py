@@ -209,17 +209,17 @@ def main():
             elif alive_id in ("gif", "webp"):
                 msg = dispatcher.bot.send_animation(
                 f"@{SUPPORT_CHAT}",
-                ALIVE_MEDIA,
-                caption="👋 Hi, i'm alive.",
+                "https://telegra.ph/file/d14891d6484d3731f03d0.jpg",
+                caption="ʏᴇʟᴀɴ ɪꜱ ʙᴀᴄᴋ ꜰʀᴏᴍ ᴛʜᴇ ᴄᴏᴍᴍɪꜱɪᴏɴ.",
                 parse_mode=ParseMode.MARKDOWN
                 )
             else:
                 msg = dispatcher.bot.send_message(
                 f"@{SUPPORT_CHAT}",
-                "👋 Hi, i'm alive.",
+                "ʏᴇʟᴀɴ ɪꜱ ʙᴀᴄᴋ ꜰʀᴏᴍ ᴛʜᴇ ᴄᴏᴍᴍɪꜱɪᴏɴ.",
                 parse_mode=ParseMode.MARKDOWN
                 )
-            time.sleep(15)
+            time.sleep(1000)
             try:
                 msg.delete()
             except BadRequest:
