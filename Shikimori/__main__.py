@@ -192,21 +192,7 @@ alive_id = ALIVE_ID[-1]
 def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            if alive_id in ("jpeg", "jpg", "png"):
-                msg = dispatcher.bot.send_photo(
-                f"@{SUPPORT_CHAT}",
-                photo=ALIVE_MEDIA,
-                caption="👋 Hi, i'm alive.",
-                parse_mode=ParseMode.MARKDOWN
-                )
-            elif alive_id in ("mp4", "mkv"):
-                msg = dispatcher.bot.send_video(
-                f"@{SUPPORT_CHAT}",
-                ALIVE_MEDIA,
-                caption="👋 Hi, i'm alive.",
-                parse_mode=ParseMode.MARKDOWN
-                )
-            elif alive_id in ("gif", "webp"):
+            if alive_id in ("gif", "webp"):
                 msg = dispatcher.bot.send_animation(
                 f"@{SUPPORT_CHAT}",
                 "https://telegra.ph/file/d14891d6484d3731f03d0.jpg",
