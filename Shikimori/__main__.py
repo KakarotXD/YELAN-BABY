@@ -192,8 +192,8 @@ alive_id = ALIVE_ID[-1]
 def main():
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            if alive_id in ("gif", "webp"):
-                msg = dispatcher.bot.send_animation(
+            if alive_id in ("gif", "jpg"):
+                msg = dispatcher.bot.send_photo(
                 f"@{SUPPORT_CHAT}",
                 "https://telegra.ph/file/d14891d6484d3731f03d0.jpg",
                 caption="ʏᴇʟᴀɴ ɪꜱ ʙᴀᴄᴋ ꜰʀᴏᴍ ᴛʜᴇ ᴄᴏᴍᴍɪꜱɪᴏɴ.",
