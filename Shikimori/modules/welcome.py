@@ -216,15 +216,15 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
 
         if should_welc:
             
-            # Give the Repo Creator a special welcome
+            # something bad so removed --xd
             if new_mem.id == 5598826878:
                 update.effective_message.reply_photo(
-                    "https://telegra.ph/file/f00a3decb0fa64900098c.jpg", reply_to_message_id=reply
+                    "https://telegra.ph/file/f189601cb0f23a5a96f66.jpg"," ۞ ᴍʏ ᴍᴀꜱᴛᴇʀ ᴊɪɴ ᴡᴏᴏ ᴊᴜꜱᴛ ᴊᴏɪɴᴇᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
                     f"#USER_JOINED\n"
-                    f"SOME1HING Joined the Chat"
+                    f"Yelan's OwnerJoined the Chat"
                 )
                 continue
 
@@ -232,15 +232,15 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
                 profile = context.bot.get_user_profile_photos(bot.id).photos[0][-1]
                 update.effective_message.reply_photo(
                         profile,
-                        caption= "❤️ <b>Thanks for adding me to this group!</b>\n\n<b>Promote me as administrator of the group, to access all my commands.</b>",
+                        caption= "ɪ'ᴍ ꜱᴜᴋᴜɴᴀ! ᴛʜᴀɴᴋ ʏᴏᴜ ꜰᴏʀ ᴀᴅᴅɪɴɢ ᴍᴇ ᴛᴏ ʜᴇʀᴇ\n ۞  ᴊᴏɪɴ ꜱᴜᴘᴘᴏʀᴛ ᴀɴᴅ ᴄʜᴀɴɴᴇʟ ᴜᴘᴅᴀᴛᴇ ᴡɪᴛʜ ᴄʟɪᴄᴋɪɴɢ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 {
                                     InlineKeyboardButton(
-                                        text="Support",
+                                        text=" ۞ Support ۞ ",
                                         url=f"https://t.me/{SUPPORT_CHAT}"),
                                     InlineKeyboardButton(
-                                        text="Updates",
+                                        text=" ۞ Updates ۞ ",
                                         url=f"https://t.me/{UPDATE_CHANNEL}",
                                     )
                                 }
@@ -249,34 +249,10 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
                         parse_mode=ParseMode.HTML,
                         reply_to_message_id=reply,
                     )
-
-            # Give the owner a special welcome
-            if new_mem.id == OWNER_ID:
-                TEXT = "Behold!! My Owner is Here."
-                try:
-                    if wel_id in ("jpeg", "jpg", "png"):
-                        update.effective_message.reply_photo(OWNER_WELCOME_MEDIA, caption=TEXT, reply_to_message_id=reply)
-                    elif wel_id in ("mp4", "mkv"):
-                        update.effective_message.reply_video(OWNER_WELCOME_MEDIA, caption=TEXT, reply_to_message_id=reply)
-                    elif wel_id in ("gif", "webp"):
-                        update.effective_message.reply_animation(OWNER_WELCOME_MEDIA, caption=TEXT, reply_to_message_id=reply)
-                    else:
-                        update.effective_message.reply_text(TEXT, reply_to_message_id=reply)
-
-                except:
-                    update.effective_message.reply_text("Behold!! My Owner is Here.", reply_to_message_id=reply)
-
-                welcome_log = (
-                    f"{html.escape(chat.title)}\n"
-                    f"#USER_JOINED\n"
-                    f"Bot Owner Joined The Chat"
-                )
-                continue
-                
             # Welcome Devs
             if new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! My Best Friend just joined!",
+                    "Damn! One Of The Archons Just Joined!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -284,7 +260,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome Sudos
             if new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "Huh! My Friend just joined! Stay Alert!",
+                    "Huh! A Harbringer Just Joined! Stay Alert!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -292,7 +268,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome Support
             if new_mem.id in DEMONS:
                 update.effective_message.reply_text(
-                    "Huh! one of my servants just joined!",
+                    "Huh! One Of My Servants Just Joined!",
                     reply_to_message_id=reply,
                 )
                 continue
