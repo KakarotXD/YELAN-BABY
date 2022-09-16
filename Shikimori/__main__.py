@@ -197,14 +197,12 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 "https://telegra.ph/file/d14891d6484d3731f03d0.jpg",
                 caption="ʏᴇʟᴀɴ ɪꜱ ʙᴀᴄᴋ ꜰʀᴏᴍ ᴛʜᴇ ᴄᴏᴍᴍɪꜱɪᴏɴ.",
-                parse_mode=ParseMode.MARKDOWN
                 )
             else:
                 msg = dispatcher.bot.send_message(
                 f"@{SUPPORT_CHAT}",
                 "https://telegra.ph/file/d14891d6484d3731f03d0.jpg",
                 "ʏᴇʟᴀɴ ɪꜱ ʙᴀᴄᴋ ꜰʀᴏᴍ ᴛʜᴇ ᴄᴏᴍᴍɪꜱɪᴏɴ.",
-                parse_mode=ParseMode.MARKDOWN
                 )
             time.sleep(1000)
             try:
