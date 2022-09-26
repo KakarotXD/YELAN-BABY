@@ -108,7 +108,7 @@
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py, /sh, /eval etc.).",
          "required": false,
-         "value": ""
+         "value": "5431653066,5774539098"
       },
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -150,15 +150,64 @@
       },
       "ARQ_API": {
          "description": "Get this from @ARQRobot.",
-         "required": true
+         "required": true.  
+         "value": "JYUGMZ-UBBKPR-IUQMJA-TMZJOQ-ARQ"
+     },
+     "WALL_API": {
+         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/ by writting a email to them.",
+         "required": false,
+         "value": ""
       },
-      "WALL_API": {
+      "ERROR_LOG_CHANNEL": {
+         "description": "Event logs channe"WALL_API": {
          "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/ by writting a email to them.",
          "required": false,
          "value": ""
       },
       "ERROR_LOG_CHANNEL": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
+         "required": true,
+         "value": "-1001599383497"
+      },
+      "REDIS_URL": {
+         "description": "Paste your redis url in format redis://<username of admin role>:<password of admin role>@<endoint url>/<database name>",
+         "required": true,
+         "value": "redis://miu:Hinazuki@123@redis-11307.c11.us-east-1-3.ec2.cloud.redislabs.com:11307"
+      },  
+      "ANIME_NAME": {
+         "description": "If your bot is based on some anime, type the name of anime. Otherwise, manually edit PM_START_TEXT in main.py",
+         "required": false,
+         "value": "GENSHIN IMPACT"
+      },
+      "START_MEDIA": {
+         "description": "Paste link of your media(img, video or gif) that you want to show in /start. Otherwise put None.",
+         "required": false,
+         "value": "https://telegra.ph/file/37ab7b6ed96c2a288c515.mp4"
+      },
+      "UPDATE_CHANNEL": {
+         "description": "Leave it as it is, or if you have your own update channel, put channel username without @.",
+         "required": true,
+         "value": "Shikimori_bot_Updates"
+      },
+      "APOD_API_KEY": {
+         "description": "Get yours from https://api.nasa.gov/ to get NASA's picture of the day.",
+         "required": false,
+         "value": ""
+      },
+      "ALIVE_MEDIA": {
+         "description": "Paste link of your media(img, video or gif) that you want to show in /alive. Otherwise put None.",
+         "required": false,
+         "value": "https://telegra.ph/file/bec67c2814864875d9e02.mp4"
+      },
+      "AI_API_KEY": {
+         "description": "AI API key, get from @Void_HeadQuarters.",
+         "required": false,
+         "value": ""
+      },
+      "STATS_IMG": {
+         "description": "Paste image link for /stats. Otherwise keep it blank.",
+         "required": false,
+         "value": "https://telegra.ph/file/l to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
          "value": "-1001599383497"
       },
@@ -215,7 +264,7 @@
       "OWNER_WELCOME_MEDIA": {
          "description": "URL of media that you want to show when owner of bot joins any chat. Supported file types (jpg, png, gif, webp, mkv, mp4).",
          "required": false,
-         "value": "-XYZ"
+         "value": "https://telegra.ph/file/e1ee71e5daf3b9b41681e.jpg"
       },
       "INLINE_IMG": {
          "description": "URL of image for inline querry. Must be a still image.",
